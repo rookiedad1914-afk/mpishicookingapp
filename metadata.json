@@ -1,0 +1,8 @@
+{
+  "name": "Mpishi Cooking",
+  "description": "A smart, local-first recipe repository that uses AI to parse, format, and modify recipes from text or URLs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

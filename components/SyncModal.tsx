@@ -1,0 +1,1 @@
+// This file has been deleted as part of the transition to Local-First Snapshot Architecture.

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mpishi Cooking</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              chef: {
+                // "Spiced Earth" Palette (Terracotta/Rust/Ochre)
+                50: '#fff7ed',  // Warm Orange White
+                100: '#ffedd5', // Pale Apricot
+                200: '#fed7aa', // Soft Ochre
+                300: '#fdba74', // Saffron
+                400: '#fb923c', // Tangerine
+                500: '#f97316', // Deep Orange
+                600: '#ea580c', // Rust / Clay (Primary Action)
+                700: '#c2410c', // Burnt Sienna
+                800: '#9a3412', // Deep Brick
+                900: '#7c2d12', // Espresso / Dark Earth
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-[#fafaf9] text-[#292524] antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

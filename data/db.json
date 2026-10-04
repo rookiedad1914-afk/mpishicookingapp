@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-10-04T20:13:01.939Z",
+  "users": [
+    {
+      "id": "user-1",
+      "username": "chef1",
+      "name": "Head Chef",
+      "role": "admin",
+      "password": "Mpishi4me!",
+      "avatarColor": "#ea580c",
+      "lastLogin": "2026-10-04T20:12:57.062Z"
+    },
+    {
+      "id": "user-2",
+      "username": "chef2",
+      "name": "Sous Chef",
+      "role": "user",
+      "password": "Cooking123!",
+      "avatarColor": "#0284c7",
+      "lastLogin": "2026-10-04T20:12:57.063Z"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "demo-1",
+      "title": "Classic Spaghetti Aglio e Olio",
+      "description": "A traditional Italian pasta dish originating from Naples with toasted garlic, chili, and parsley.",
+      "prepTime": 10,
+      "cookTime": 15,
+      "servings": 2,
+      "tags": [
+        "Italian",
+        "Pasta",
+        "Quick",
+        "Vegetarian"
+      ],
+      "ingredients": [
+        {
+          "item": "Spaghetti",
+          "amount": 0.5,
+          "unit": "lb",
+          "originalString": "1/2 lb spaghetti"
+        },
+        {
+          "item": "Garlic",
+          "amount": 4,
+          "unit": "cloves",
+          "originalString": "4 cloves garlic, sliced"
+        },
+        {
+          "item": "Olive Oil",
+          "amount": 0.25,
+          "unit": "cup",
+          "originalString": "1/4 cup olive oil"
+        },
+        {
+          "item": "Red Pepper Flakes",
+          "amount": 1,
+          "unit": "tsp",
+          "originalString": "1 tsp red pepper flakes"
+        },
+        {
+          "item": "Parsley",
+          "amount": 0.25,
+          "unit": "cup",
+          "originalString": "1/4 cup fresh parsley, chopped"
+        }
+      ],
+      "instructions": [
+        "Bring a large pot of salted water to a boil. Cook spaghetti until al dente.",
+        "While pasta cooks, combine olive oil and garlic in a cold skillet. Slowly toast garlic over medium-low heat until golden.",
+        "Add red pepper flakes to the oil and remove from heat.",
+        "Drain pasta, reserving 1/2 cup of pasta water.",
+        "Toss pasta with the oil sauce and parsley, adding pasta water if needed to create a glossy emulsion.",
+        "Serve immediately with grated parmesan if desired."
+      ],
+      "rating": 5,
+      "isFavorite": true,
+      "createdAt": "2026-10-04T20:12:57.063Z",
+      "authorId": "user-1",
+      "authorName": "Head Chef"
+    }
+  ],
+  "weeklyPlan": {},
+  "inventory": [
+    "Olive Oil",
+    "Garlic",
+    "Spaghetti",
+    "Eggs",
+    "Salt",
+    "Black Pepper"
+  ],
+  "inventoryLocations": {
+    "Olive Oil": "PANTRY",
+    "Garlic": "PANTRY",
+    "Spaghetti": "PANTRY",
+    "Eggs": "FRIDGE",
+    "Salt": "SPICE",
+    "Black Pepper": "SPICE"
+  },
+  "manualShopping": [],
+  "shoppingChecked": []
+}

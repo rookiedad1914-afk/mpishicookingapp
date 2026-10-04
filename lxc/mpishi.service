@@ -1,0 +1,26 @@
+[Unit]
+Description=Sous Chef AI Recipe Server (Mpishi Cooking)
+Documentation=https://github.com/
+After=network.target tailscaled.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/var/www/mpishi
+Environment=NODE_ENV=production
+Environment=PORT=3000
+Environment=DATA_DIR=/var/lib/mpishi/data
+# Set your Gemini API key:
+# Environment=GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+ExecStart=/usr/bin/node server.ts
+Restart=always
+RestartSec=5
+
+# Sandboxing & Resource constraints
+LimitNOFILE=65535
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=sous-chef
+
+[Install]
+WantedBy=multi-user.target
